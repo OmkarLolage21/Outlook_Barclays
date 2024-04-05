@@ -10,7 +10,7 @@
 // Focus was to get the basic app working
 // global variables that can be accessed by all functions
 var config = {
-  accessToken: "eyJ0eXAiOiJKV1QiLCJub25jZSI6IlFvdGVCZzBENVJNMV93bFo5dVo4aHFnVFBnVUNiMFFEZk9aUXdIa2ZCU1kiLCJhbGciOiJSUzI1NiIsIng1dCI6InEtMjNmYWxldlpoaEQzaG05Q1Fia1A1TVF5VSIsImtpZCI6InEtMjNmYWxldlpoaEQzaG05Q1Fia1A1TVF5VSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8zMTVlMzJhNC1jMTAwLTQ1YTktODUxNS01YWU1M2Y4YjE2MTkvIiwiaWF0IjoxNzEyMjI5NTEyLCJuYmYiOjE3MTIyMjk1MTIsImV4cCI6MTcxMjMxNjIxMiwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhXQUFBQStCd3pDbnlRckNvSlRseXJIY1UvYm1QQ2pBL1YwV25LNWhTdGhpcjZTTU9CK2NPYnE5UzNCeUQxd2s1QkkzMnRpdDBDTzBibTZqaElNSlZrcHZjV1lSUkdtc0ttRTNHMHhHWWJpSUYrbFNBPSIsImFtciI6WyJwd2QiLCJtZmEiXSwiYXBwX2Rpc3BsYXluYW1lIjoiR3JhcGggRXhwbG9yZXIiLCJhcHBpZCI6ImRlOGJjOGI1LWQ5ZjktNDhiMS1hOGFkLWI3NDhkYTcyNTA2NCIsImFwcGlkYWNyIjoiMCIsImZhbWlseV9uYW1lIjoiUEFUSUwiLCJnaXZlbl9uYW1lIjoiQUFESVRZQSIsImlkdHlwIjoidXNlciIsImlwYWRkciI6IjExNi43NC4yMTEuMTMyIiwibmFtZSI6IkFBRElUWUEgUEFUSUwiLCJvaWQiOiJiMDQ4YmM0My01YjQ2LTRlY2EtODE5NC1lOTQ1MDFjY2FjMGQiLCJwbGF0ZiI6IjMiLCJwdWlkIjoiMTAwMzIwMDM2OUE2MjBGNyIsInJoIjoiMC5BU3NBcERKZU1RREJxVVdGRlZybFA0c1dHUU1BQUFBQUFBQUF3QUFBQUFBQUFBRENBS1kuIiwic2NwIjoiTWFpbC5SZWFkIE1haWwuUmVhZEJhc2ljIE1haWwuUmVhZFdyaXRlIG9wZW5pZCBwcm9maWxlIFVzZXIuUmVhZCBlbWFpbCIsInNpZ25pbl9zdGF0ZSI6WyJrbXNpIl0sInN1YiI6IkN6VWZkTThhWFpyd2RVa3ZENVM4YURkN2w4N3RMS0Z3STVPYlR3dnhaTDgiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiQVMiLCJ0aWQiOiIzMTVlMzJhNC1jMTAwLTQ1YTktODUxNS01YWU1M2Y4YjE2MTkiLCJ1bmlxdWVfbmFtZSI6IkFBRElUWUFQQVRJTEBoYWNrb2hpcmUub25taWNyb3NvZnQuY29tIiwidXBuIjoiQUFESVRZQVBBVElMQGhhY2tvaGlyZS5vbm1pY3Jvc29mdC5jb20iLCJ1dGkiOiJlRTh3ZVZORmRFcWthbVVQYUwxWkFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyI2MmU5MDM5NC02OWY1LTQyMzctOTE5MC0wMTIxNzcxNDVlMTAiLCJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXSwieG1zX2NjIjpbIkNQMSJdLCJ4bXNfc3NtIjoiMSIsInhtc19zdCI6eyJzdWIiOiJQeS1EOWRQMlpsOWlpMVVhUGRHWjB5TV84V0xzWGZPUzlQVU1vZHJPN0swIn0sInhtc190Y2R0IjoxNzExNzAyNTE3fQ.gtraCQr1-nFhEnYNSkebl39zhmyLHSQM2hYLWRTmCficDHJtyODh93OB2KKImwkAAUBkhf2OCCMMPLjOAfSSbforh0I8MQQqlyOhxdFsAziKY_DYkU8STMuSpraPz_OZPvsPq4NQ25b3U32eI8WCp3eB3JIWjJ_n557odlelp1RkakMiYJG_PxWVuwFayfOMs4-gepw3YKEGdg1Rn9xgtm1O-QPdGsE4J8yfXgsT4ah-GeZn4MjcK8rxnKwycv2o5glQn_Rgo1jAvnmo5XJQHBw9TW-MMLIBlg1KL0jZue7tZv5jLy_B-UpsSqgIw8QxwpY3vSTyiowpeQ0Haa0_qg"
+  accessToken: "eyJ0eXAiOiJKV1QiLCJub25jZSI6InVYbDhKOTkwQ0l3SGQ5QUJkd1FfRXBHRmwwRlMxZElnMXVpUTY0MzlKMVkiLCJhbGciOiJSUzI1NiIsIng1dCI6InEtMjNmYWxldlpoaEQzaG05Q1Fia1A1TVF5VSIsImtpZCI6InEtMjNmYWxldlpoaEQzaG05Q1Fia1A1TVF5VSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8zMTVlMzJhNC1jMTAwLTQ1YTktODUxNS01YWU1M2Y4YjE2MTkvIiwiaWF0IjoxNzEyMjQ1MTQxLCJuYmYiOjE3MTIyNDUxNDEsImV4cCI6MTcxMjMzMTg0MSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhXQUFBQWVJdVZKcWE4QVdZQ1BmV3FMV1NIR2ZOVDd6RDM4UWtYaXpZaGZXczlEbWxENTlEcGlKNmVaaTRocDd5OE9JdTQyaENCQUEvaTdTZWNzRVBvVUdKRU15V2lmT1ZKVzFndmZwT1hoQXh4aEpNPSIsImFtciI6WyJwd2QiLCJtZmEiXSwiYXBwX2Rpc3BsYXluYW1lIjoiR3JhcGggRXhwbG9yZXIiLCJhcHBpZCI6ImRlOGJjOGI1LWQ5ZjktNDhiMS1hOGFkLWI3NDhkYTcyNTA2NCIsImFwcGlkYWNyIjoiMCIsImZhbWlseV9uYW1lIjoiUEFUSUwiLCJnaXZlbl9uYW1lIjoiQUFESVRZQSIsImlkdHlwIjoidXNlciIsImlwYWRkciI6IjExNi43NC4yMTEuMTMyIiwibmFtZSI6IkFBRElUWUEgUEFUSUwiLCJvaWQiOiJiMDQ4YmM0My01YjQ2LTRlY2EtODE5NC1lOTQ1MDFjY2FjMGQiLCJwbGF0ZiI6IjMiLCJwdWlkIjoiMTAwMzIwMDM2OUE2MjBGNyIsInJoIjoiMC5BU3NBcERKZU1RREJxVVdGRlZybFA0c1dHUU1BQUFBQUFBQUF3QUFBQUFBQUFBRENBS1kuIiwic2NwIjoiTWFpbC5SZWFkIE1haWwuUmVhZEJhc2ljIE1haWwuUmVhZFdyaXRlIE1haWwuU2VuZCBvcGVuaWQgcHJvZmlsZSBVc2VyLlJlYWQgZW1haWwiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiJDelVmZE04YVhacndkVWt2RDVTOGFEZDdsODd0TEtGd0k1T2JUd3Z4Wkw4IiwidGVuYW50X3JlZ2lvbl9zY29wZSI6IkFTIiwidGlkIjoiMzE1ZTMyYTQtYzEwMC00NWE5LTg1MTUtNWFlNTNmOGIxNjE5IiwidW5pcXVlX25hbWUiOiJBQURJVFlBUEFUSUxAaGFja29oaXJlLm9ubWljcm9zb2Z0LmNvbSIsInVwbiI6IkFBRElUWUFQQVRJTEBoYWNrb2hpcmUub25taWNyb3NvZnQuY29tIiwidXRpIjoiNEtUMUpYM0R4MFdqT1pmNzZRZHNBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiNjJlOTAzOTQtNjlmNS00MjM3LTkxOTAtMDEyMTc3MTQ1ZTEwIiwiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19jYyI6WyJDUDEiXSwieG1zX3NzbSI6IjEiLCJ4bXNfc3QiOnsic3ViIjoiUHktRDlkUDJabDlpaTFVYVBkR1oweU1fOFdMc1hmT1M5UFVNb2RyTzdLMCJ9LCJ4bXNfdGNkdCI6MTcxMTcwMjUxN30.10rR1cbqkWRXcnvo7dFpawH-yAD6Pv4k02FbyWf7mW802Ghg0dfiCIhpCPooFOmz7YfNtU-LJ7dvzeyU019WIVBLSUkMGZdekevHIElRazBEty4RqQH3tE2RB6UCbjxj2JUTyPHIUle9HIGkL8Ioz50g5ECIsIuuLuNfT02ehVd8rrhQ-he1jwoD6DOdY7lkR5bje8peCRuKjVg7Z38n_jECoOFTrFGBd8uyUQPbYThveQNJCIEBYlf15th85nX2CPpZejzi6nj4UOJCNoyjNBNmQ2Fw8rdLKOaBtRKtnwdZy19Wtcu49pU_FH9iXBzODjeRkbpN3b9O1NboNfkCMg"
 };
 
 const emails = [];
@@ -41,58 +41,60 @@ function hideMessage() {
 }
 
 async function getMessages() {
+  // Clear the emails array to overwrite it with new emails
+  emails.length = 0; // This line clears the array
+ 
   // Define the endpoint to fetch emails
   const baseEndpoint = 'https://graph.microsoft.com/v1.0/me/messages?$select=id,subject,sender';
-
+ 
   // Get the selected value from the dropdown
   const selectedCategory = document.getElementById('selectEmail').value;
-
+ 
   // Construct the endpoint dynamically based on the selected category
-  const endpoint = selectedCategory ? `${baseEndpoint}&$filter=categories/any(c:c eq '${selectedCategory}')` : baseEndpoint; // Fix the typo: closing quote for '${selectedCategory}'
-
+  const endpoint = selectedCategory ? `${baseEndpoint}&$filter=categories/any(c:c eq '${selectedCategory}')` : baseEndpoint;
+ 
   // Define the access token
   const accessToken = config.accessToken;
-
+ 
   // Define headers with the access token
   const headers = {
-    'Authorization': `Bearer ${accessToken}`
+     'Authorization': `Bearer ${accessToken}`
   };
-
+ 
   try {
-    // Make a GET request to fetch emails
-    const response = await fetch(endpoint, {
-      method: 'GET',
-      headers: headers
-    });
-
-    // Check if the response is successful
-    if (!response.ok) {
-      throw new Error(`Failed to fetch emails: ${response.statusText}`);
-    }
-
-    // Extract the response body as JSON
-    const responseBody = await response.json();
-    
-
-    // Iterate over each email object and extract required information
-    responseBody.value.forEach(email => {
-      const emailObj = {
-        id: email.id,
-        subject: email.subject,
-        sender: email.sender.emailAddress.name
-      };
-
-      // Push the email object to the emails array
-      emails.push(emailObj);
-    });
-
-    // Render the emails in the task pane
-    renderEmails(emails);
+     // Make a GET request to fetch emails
+     const response = await fetch(endpoint, {
+       method: 'GET',
+       headers: headers
+     });
+ 
+     // Check if the response is successful
+     if (!response.ok) {
+       throw new Error(`Failed to fetch emails: ${response.statusText}`);
+     }
+ 
+     // Extract the response body as JSON
+     const responseBody = await response.json();
+ 
+     // Iterate over each email object and extract required information
+     responseBody.value.forEach(email => {
+       const emailObj = {
+         id: email.id,
+         subject: email.subject,
+         sender: email.sender.emailAddress.name
+       };
+ 
+       // Push the email object to the emails array
+       emails.push(emailObj);
+     });
+ 
+     // Render the emails in the task pane
+     renderEmails(emails);
   } catch (error) {
-    console.error('Error fetching emails:', error.message);
+     console.error('Error fetching emails:', error.message);
   }
-}
-
+ }
+ 
 
 function renderEmails(emails) {
   // Get the task pane container element
@@ -189,80 +191,79 @@ function truncateText(text, maxWidth) {
   return truncatedText;
 }
 
-
-// Forwarding mails to respective departments
 async function forwardEmails() {
   // Get the checkboxes for the selected emails
-  const checkboxes = document.querySelectorAll('input[name="emailCheckbox"]:checked');
- 
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+
   // Check if any email is selected
   if (checkboxes.length === 0) {
-     // Use Office.context.ui.messageParent to send a message to the parent window
-     console.log({ message: 'Please select at least one email to forward.' });
-     return;
+    console.log('Please select at least one email to forward.');
+    return;
   }
- 
-  // Get the selected recipient email address
+
+  // Get the selected recipient email address and name
   const recipientEmail = document.getElementById('recipients-dropdown').value;
- 
+  const recipientName = document.getElementById('recipients-dropdown').options[document.getElementById('recipients-dropdown').selectedIndex].text;
+  console.log('Selected recipient email:', recipientEmail); // Log the selected recipient email
+  console.log('Selected recipient name:', recipientName); // Log the selected recipient name
+
   // Check if a recipient is selected
   if (!recipientEmail) {
-     // Use console.log to send a message to the parent window
-     console.log({ message: 'Please select a recipient email address.' });
-     return;
+    console.log('Please select a recipient email address.');
+    return;
   }
- 
+
   // Define headers with the access token
   const headers = {
-     'Authorization': `Bearer ${config.accessToken}`,
-     'Content-Type': 'application/json'
+    'Authorization': `Bearer ${config.accessToken}`,
+    'Content-Type': 'application/json'
   };
- 
+  console.log('Headers:', headers); // Log the headers
+
   try {
-     // Iterate over each selected email and forward it
-     await Promise.all(Array.from(checkboxes).map(async checkbox => {
-       // Find the corresponding email object in the emails array
-       const emailObj = emails.find(email => email.id === checkbox.value);
-       if (!emailObj) {
-         throw new Error(`Email not found for ID: ${checkbox.value}`);
-       }
- 
-       const emailId = emailObj.id;
-       const forwardEndpoint = `https://graph.microsoft.com/v1.0/me/messages/${emailId}/microsoft.graph.forward`;
- 
-       // Define the request body for forwarding
-       const requestBody = JSON.stringify({
-         "comment": "FYI",
-         "toRecipients": [
-           {
-             "emailAddress": {
-               "address": recipientEmail,
-               "name": emailObj.sender // Use the sender name from the emails array
-             }
-           }
-         ]
-       });
- 
-       // Make a POST request to forward the email
-       const forwardResponse = await fetch(forwardEndpoint, {
-         method: 'POST',
-         headers: headers,
-         body: requestBody
-       });
- 
-       // Check if the forwarding was successful
-       if (!forwardResponse.ok) {
-         throw new Error(`Failed to forward email: ${forwardResponse.statusText}`);
-       }
-     }));
- 
-     // Use Office.context.ui.messageParent to send a success message to the parent window
-     console.log({ message: 'Emails forwarded successfully!' });
+    // Iterate over each selected email and forward it
+    await Promise.all(Array.from(checkboxes).map(async checkbox => {
+      // Find the corresponding email object in the emails array
+      const emailObj = emails.find(email => email.id === checkbox.id);
+      if (!emailObj) {
+        throw new Error(`Email not found for ID: ${checkbox.id}`);
+      }
+
+      const emailId = emailObj.id;
+      const forwardEndpoint = `https://graph.microsoft.com/v1.0/me/messages/${emailId}/microsoft.graph.forward`;
+      console.log('Forward endpoint:', forwardEndpoint); // Log the forward endpoint
+
+      // Define the request body for forwarding
+      const requestBody = JSON.stringify({
+        "comment": "FYI",
+        "toRecipients": [
+          {
+            "emailAddress": {
+              "address": recipientEmail,
+              "name": recipientName // Use the recipient's name from the dropdown
+            }
+          }
+        ]
+      });
+      console.log('Request body:', requestBody); // Log the request body
+
+      // Make a POST request to forward the email
+      const forwardResponse = await fetch(forwardEndpoint, {
+        method: 'POST',
+        headers: headers,
+        body: requestBody
+      });
+
+      // Check if the forwarding was successful
+      if (!forwardResponse.ok) {
+        const errorResponse = await forwardResponse.json(); // Attempt to parse the error response
+        console.log('Error response:', errorResponse); // Log the error response
+        throw new Error(`Failed to forward email: ${forwardResponse.statusText}. Error details: ${JSON.stringify(errorResponse)}`);
+      }
+    }));
+
+    console.log('Emails forwarded successfully!');
   } catch (error) {
-     console.error('Error forwarding emails:', error.message);
-     // Use Office.context.ui.messageParent to send an error message to the parent window
-     console.log({ message: `Error forwarding emails: ${error.message}` });
+    console.error('Error forwarding emails:', error.message);
   }
- }
- 
- 
+}
