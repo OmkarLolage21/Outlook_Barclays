@@ -1,194 +1,182 @@
-/* 
- * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
- * See LICENSE in the project root for license information.
- */
+/* Reset default styles */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #eff2fb 0%, #b1c7fa 100%);
 
- html,
- body {
-     width: 100%;
-     height: 100%;
-     margin: 0;
-     padding: 0;
-     background-color: #f0f0f0
- }
- 
- ul {
-     margin: 0;
-     padding: 0;
- }
- 
- .ms-welcome__header {
-     padding: 20px;
-     padding-bottom: 30px;
-     padding-top: 100px;
-     display: -webkit-flex;
-     display: flex;
-     -webkit-flex-direction: column;
-     flex-direction: column;
-     align-items: center;
- }
- 
- .ms-welcome__main {
-     display: -webkit-flex;
-     display: flex;
-     -webkit-flex-direction: column;
-     flex-direction: column;
-     -webkit-flex-wrap: nowrap;
-     flex-wrap: nowrap;
-     -webkit-align-items: center;
-     align-items: center;
-     -webkit-flex: 1 0 0;
-     flex: 1 0 0;
-     padding: 10px 20px;
- }
- 
- .ms-welcome__main > h2 {
-     width: 100%;
-     text-align: center;
- }
- 
- .ms-welcome__features {
-     list-style-type: none;
-     margin-top: 20px;
- }
- 
- .ms-welcome__features.ms-List .ms-ListItem {
-     padding-bottom: 20px;
-     display: -webkit-flex;
-     display: flex;
- }
- 
- .ms-welcome__features.ms-List .ms-ListItem > .ms-Icon {
-     margin-right: 10px;
- }
- 
- .ms-welcome__action.ms-Button--hero {
-     margin-top: 30px;
- }
- 
- .ms-Button.ms-Button--hero .ms-Button-label {
-     color: #0078d7;
- }
- 
- .ms-Button.ms-Button--hero:hover .ms-Button-label,
- .ms-Button.ms-Button--hero:focus .ms-Button-label {
-     color: #005a9e;
-     cursor: pointer;
- }
- 
- b {
-     font-weight: bold;
- }
- 
- /* taskpane.css */
- 
- /* Style for the container of emails */
- #task-pane-container {
-     display: flex;
-     flex-direction: column;
-     gap: 10px; /* Add some space between each email */
-     width: 100%; /* Adjusted width */
-     border: 1px solid black; /* Add a 1px solid black border */
- }
- 
- /* Style for each email flexbox */
- .email {
-     background-color: #fff; /* White background */
-     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
-     padding: 15px; /* Add padding for better spacing */
-     border-radius: 5px; /* Add border radius for rounded corners */
- }
- 
- .getMails-button {
-     padding: 8px 16px;
-     font-size: 14px;
-     color: #ffffff;
-     background-color: #0078d4;
-     border: none;
-     border-radius: 4px;
-     cursor: pointer;
- }
- 
- .getMails-button:hover {
-     background-color: #106ebe;
- }
- 
- .dropdown-container {
-     display: flex;
-     align-items: center;
- }
- 
- .dropdown-label {
-     margin-right: 10px;
- }
- 
- .dropdown-select {
-     padding: 6px 10px;
-     font-size: 14px;
-     color: #323130;
-     border: 1px solid #c8c6c4;
-     border-radius: 4px;
-     background-color: #ffffff;
-     width: 100%; /* Adjusted width */
- }
- 
- .dropdown-select:focus,
- .dropdown-select:hover {
-     border-color: #0078d4;
-     box-shadow: 0 0 0 1px #0078d4;
- }
- 
- .dropdown-select::-ms-expand {
-     display: none;
- }
- 
- .dropdown-select option {
-     color: #323130;
- }
- 
- /* New styles for button and dropdown containers */
- .button-dropdown-container {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     width: 100%;
-     padding: 10px 0;
- }
- 
- /* Additional styling for better spacing */
- .ms-Grid-row {
-     margin-bottom: 20px;
- }
- 
- .ms-Dropdown {
-     margin-top: 10px;
- }
- 
- .button-container, .dropdown-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    margin-bottom: 20px;
 }
 
-.forwardEmails-button {
-    background-color: #0078d4;
-    color: white;
-    border: none;
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main header styles */
+.ms-welcome__header {
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main content styles */
+.ms-welcome__main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex: 1 0 0;
     padding: 10px 20px;
+}
+
+.ms-welcome__main > h2 {
+    width: 100%;
+    text-align: center;
+}
+
+/* Features list styles */
+.ms-welcome__features {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.ms-welcome__features.ms-List .ms-ListItem {
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.ms-welcome__features.ms-List .ms-ListItem > .ms-Icon {
+    margin-right: 10px;
+}
+
+/* Hero action button styles */
+.ms-welcome__action.ms-Button--hero {
+    margin-top: 30px;
+}
+
+.ms-Button.ms-Button--hero .ms-Button-label {
+    color: #0078d7;
+}
+
+.ms-Button.ms-Button--hero:hover .ms-Button-label,
+.ms-Button.ms-Button--hero:focus .ms-Button-label {
+    color: #005a9e;
+    cursor: pointer;
+}
+
+/* Bold text styles */
+b {
+    font-weight: bold;
+}
+
+
+/* Individual email styles */
+.email {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Button styles */
+.getMails-button {
+    background-color: white;
+    margin-right: 3.8vw;
+    border-color: white;
+    padding: 7.5px 15px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5vh;
+
+}
+
+.getMails-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #005A9E;
+}
+
+/* Dropdown styles */
+.dropdown-container {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.dropdown-select {
+    padding: 6px 10px;
+    font-size: 14px;
+    color: #323130;
+    border: 1px solid #c8c6c4;
+    border-radius: 4px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.dropdown-select:focus,
+.dropdown-select:hover {
+    border-color: #0078d4;
+    box-shadow: 0 0 0 1px #0078d4;
+}
+
+.dropdown-select::-ms-expand {
+    display: none;
+}
+
+.dropdown-select option {
+    color: #323130;
+}
+
+/* Container for button and dropdown */
+.button-dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* Button and dropdown container styles */
+.button-container,
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2vh;
+}
+
+/* Forward emails button styles */
+.forwardEmails-button {
+    background-color: white;
+    margin-right: 3.8vw;
+    border-color: white;
+    padding: 7.5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5vh;
 }
 
 .forwardEmails-button:hover {
-    background-color: #005a9e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #005A9E;
 }
 
+/* Dropdown styles */
 .ms-Dropdown {
+    margin-top: 7.5px;
     width: 100%;
     max-width: 300px;
     padding: 10px;

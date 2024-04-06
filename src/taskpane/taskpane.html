@@ -27,29 +27,34 @@
         <div class="ms-Grid-row">
             <div class="ms-Grid-col ms-lg-12">
                 <div class="button-dropdown-container">
-                    <!-- Fetch Mails Button -->
-                    <button id="getMails-button" class="getMails-button">
-                        Fetch Mails
-                    </button>
-
-                    <!-- Category Dropdown -->
-                    <div class="dropdown-container">
-                        <label for="selectEmail" class="dropdown-label">Category:</label>
-                        <select id="selectEmail" class="ms-Dropdown dropdown-select">
-                            <option value="sales">Sales</option>
-                            <option value="Red Category">Red</option>
-                            <option value="support">Support</option>
-                        </select>
-                    </div>
+                    <label for="selectEmail" class="dropdown-label">Categories:</label>
+                    <select id="selectEmail" class="ms-Dropdown recipients-dropdown">
+                        <option value="joy">Appreciation</option>
+                        <option value="sadness">Complaints</option>
+                        <option value=""></option>
+                    </select>
+                </div>
+            </div>
+            <!-- Recipients Dropdown Container -->
+            <div class="ms-Grid-col ms-lg-12">
+                <div class="button-dropdown-container">
+                    <label for="recipients-dropdown" class="dropdown-label">Recipient:&nbsp;&nbsp</label>
+                    <select id="recipients-dropdown" class="ms-Dropdown recipients-dropdown">
+                        <option value="aadityampatil@outlook.com">Aaditya Patil</option>
+                        <option value="omkarLolage@hackohire.onmicrosoft.com">Omkar Lolage</option>
+                        <option value="recipient3@example.com">Chinmayee Prabhu</option>
+                    </select>
                 </div>
             </div>
         </div>
 
+
         <!-- Container to render emails -->
-        <div class="ms-Grid-row" style="display: flex; justify-content: center;">
+        <div class="ms-Grid-row" style="display: inline-block; justify-content: center; ">
             <div class="ms-Grid-col ms-lg-12">
                 <div id="task-pane-container"
-                    style="overflow-y: auto; overflow-x: hidden; max-height: 400px; width: 98%; margin-left: 10px; margin-right: 10px; background-color: #f0f0f0;">
+                    style="overflow-y: auto; overflow-x: hidden; max-height: 60vh; width: 95%; 
+                        margin-left: 10px; margin-right: 10px; margin-top: .5vh; background-color: #f0f0f0;">
                 </div>
             </div>
         </div>
@@ -59,19 +64,14 @@
             <div class="ms-Grid-col ms-lg-12">
                 <!-- Forward Emails Button Container -->
                 <div class="button-container">
+                    <!-- Fetch Mails Button -->
+                    <button id="getMails-button" class="getMails-button">
+                        Fetch Mails
+                    </button>
+
                     <button id="forwardEmails-button" class="forwardEmails-button">
                         Forward Emails
                     </button>
-                </div>
-        
-                <!-- Recipients Dropdown Container -->
-                <div class="dropdown-container">
-                    <label for="recipients-dropdown" class="dropdown-label">Recipient:</label>
-                    <select id="recipients-dropdown" class="ms-Dropdown recipients-dropdown">
-                        <option value="aadityampatil@outlook.com">Aaditya Patil</option>
-                        <option value="omkarLolage@hackohire.onmicrosoft.com">Omkar Lolage</option>
-                        <option value="recipient3@example.com">Chinmayee Prabhu</option>
-                    </select>
                 </div>
             </div>
         </div>
